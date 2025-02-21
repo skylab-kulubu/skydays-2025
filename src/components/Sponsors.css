@@ -1,0 +1,41 @@
+.sponsors {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding-bottom: 100px;
+  scroll-margin-top: 150px;
+}
+.sponsors > h2 {
+  text-shadow: 0px 0px 16px #00a8cc;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 120%;
+  padding-bottom: 40px;
+}
+.sponsor-container {
+  display: flex;
+  justify-content: space-between;
+}
+.sponsor-container > div {
+  border-radius: 20px;
+  border: 1px solid #ffffff33;
+  background: #14285066;
+  width: 300px;
+  height: 150px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.sponsor-container > div > h3 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+}
+.sponsor-container > div > div {
+  width: 90%;
+  height: 50%;
+  background-color: white;
+}
