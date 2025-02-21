@@ -30,7 +30,7 @@ function Header() {
         </button>
       </nav>
       <h1>SKYDAYS</h1>
-      <button>Başvur</button>
+      <a href="https://skyl.app/skydays-katilimci-formu">Başvur</a>
     </header>
   );
 }

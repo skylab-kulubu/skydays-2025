@@ -48,3 +48,8 @@ main {
   justify-content: center;
   gap: 6.25rem;
 }
+
+a {
+  color: #fff;
+  text-decoration: none;
+}

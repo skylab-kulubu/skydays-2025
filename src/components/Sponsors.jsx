@@ -7,15 +7,15 @@ function Sponsors() {
       <div className="sponsor-container">
         <div>
           <h3>Ana Sponsor</h3>
-          <div></div>
+          <div>Yakında Açıklanacak...</div>
         </div>
         <div>
           <h3>Gümüş Sponsor</h3>
-          <div></div>
+          <div>Yakında Açıklanacak...</div>
         </div>
         <div>
           <h3>Bronz Sponsor</h3>
-          <div></div>
+          <div>Yakında Açıklanacak...</div>
         </div>
       </div>
     </article>

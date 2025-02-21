@@ -12,7 +12,7 @@ function Welcome() {
         <p>Türkiye'nin En Büyük Siber Güvenlik Etkinliği</p>
       </div>
 
-      <button>Hemen Başvur!</button>
+      <a href="https://skyl.app/skydays-katilimci-formu">Hemen Başvur!</a>
 
       <div className="welcome-footer">
         <p>14-15 Mart 2025</p>

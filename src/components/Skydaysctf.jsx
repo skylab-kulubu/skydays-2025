@@ -22,7 +22,9 @@ function Skydaysctf() {
           tarafından gerçekleştirilecek olan CTF, aynı zamanda SKYDAYS tarihinde
           de ikinci olma özelliğini taşımaktadır.
         </p>
-        <button>Yarışmaya Başvur</button>
+        <a href="https://skyl.app/skydays-ctf-basvuru-formu">
+          Yarışmaya Başvur
+        </a>
       </section>
       <img src={PrizeSVG} alt="Ödüller" />
     </article>

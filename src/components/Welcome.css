@@ -27,7 +27,7 @@
   font-size: 1.25rem;
   color: #a7cbd3;
 }
-.welcome > button {
+.welcome > a {
   background-color: #142850;
   color: white;
   padding: 0.75rem 3rem;
@@ -37,8 +37,8 @@
   border-radius: 50px;
   position: relative;
 }
-.welcome > button::after,
-.welcome > button::before {
+.welcome > a::after,
+.welcome > a::before {
   content: "";
   position: absolute;
   height: 100%;
@@ -52,12 +52,12 @@
   border-radius: 50px;
   animation: 3s spin linear infinite;
 }
-.welcome > button::before {
+.welcome > a::before {
   filter: blur(1.5rem);
   opacity: 0.75;
 }
-.welcome > button:hover::before,
-.welcome > button:hover::after {
+.welcome > a:hover::before,
+.welcome > a:hover::after {
   animation-play-state: paused;
 }
 

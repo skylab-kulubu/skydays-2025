@@ -29,7 +29,7 @@ header > nav > button {
   border: none;
 }
 
-header > button {
+header > a {
   background-color: #142850;
   padding: 0.625rem 3.125rem;
   font-size: 1.25rem;
@@ -41,10 +41,10 @@ header > button {
   transition: all 0.3s ease-in-out;
 }
 
-header > button:hover {
+header > a:hover {
   box-shadow: 0px 0px 20px #0c7b93;
 }
-header > button:active {
+header > a:active {
   transform: scale(95%);
 }
 
@@ -68,7 +68,7 @@ header > h1 {
     font-weight: 600;
     text-align: center;
   }
-  header > button {
+  header > a {
     padding: 0.625rem 1.5rem;
   }
 }

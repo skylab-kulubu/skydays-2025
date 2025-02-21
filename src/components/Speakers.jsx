@@ -9,43 +9,43 @@ function Speakers() {
         <figure className="speaker">
           <img src={SpeakerImage} alt="Konuşmacı" />
           <figcaption>
-            <h3>İsim Soyisim</h3>
-            <p>Pozisyon</p>
+            <h3>Yakında Açıklanacak</h3>
+            <p></p>
           </figcaption>
         </figure>
         <figure className="speaker">
           <img src={SpeakerImage} alt="Konuşmacı" />
           <figcaption>
-            <h3>İsim Soyisim</h3>
-            <p>Pozisyon</p>
+            <h3>Yakında Açıklanacak</h3>
+            <p></p>
           </figcaption>
         </figure>
         <figure className="speaker">
           <img src={SpeakerImage} alt="Konuşmacı" />
           <figcaption>
-            <h3>İsim Soyisim</h3>
-            <p>Pozisyon</p>
+            <h3>Yakında Açıklanacak</h3>
+            <p></p>
           </figcaption>
         </figure>
         <figure className="speaker">
           <img src={SpeakerImage} alt="Konuşmacı" />
           <figcaption>
-            <h3>İsim Soyisim</h3>
-            <p>Pozisyon</p>
+            <h3>Yakında Açıklanacak</h3>
+            <p></p>
           </figcaption>
         </figure>
         <figure className="speaker">
           <img src={SpeakerImage} alt="Konuşmacı" />
           <figcaption>
-            <h3>İsim Soyisim</h3>
-            <p>Pozisyon</p>
+            <h3>Yakında Açıklanacak</h3>
+            <p></p>
           </figcaption>
         </figure>
         <figure className="speaker">
           <img src={SpeakerImage} alt="Konuşmacı" />
           <figcaption>
-            <h3>İsim Soyisim</h3>
-            <p>Pozisyon</p>
+            <h3>Yakında Açıklanacak</h3>
+            <p></p>
           </figcaption>
         </figure>
       </section>
