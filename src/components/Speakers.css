@@ -1,0 +1,52 @@
+.speakers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  gap: 50px;
+  scroll-margin-top: 150px;
+}
+.speakers > h2 {
+  font-family: Syne;
+  text-shadow: 0px 0px 16px #00a8cc;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 120%;
+}
+.speakers-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 50px;
+}
+
+figure.speaker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+figure.speaker > img {
+  width: 200px;
+  background-color: #142850;
+  border-radius: 25px;
+  transition: box-shadow 0.3s ease-in;
+}
+figure.speaker > img:hover {
+  box-shadow: 0px 0px 25px #0c7b93;
+}
+
+figure.speaker > figcaption {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+figure.speaker > figcaption > h3 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+figure.speaker > figcaption > p {
+  color: #00a8cc;
+  font-size: 1.5rem;
+}
