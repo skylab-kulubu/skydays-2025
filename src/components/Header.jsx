@@ -16,11 +16,7 @@ const scrollToElement = (element) => {
 function Header() {
   return (
     <header>
-      <img
-        style={{ width: "80px", height: "75px" }}
-        src={skylablogo}
-        alt="Skylab Kulüp Logosu"
-      />
+      <img src={skylablogo} alt="Skylab Kulüp Logosu" />
       <nav>
         <button onClick={() => scrollToElement("welcome")}>Ana Sayfa</button>
         <button onClick={() => scrollToElement("about")}>Hakkımızda</button>
@@ -33,6 +29,7 @@ function Header() {
           Sponsorlarımız
         </button>
       </nav>
+      <h1>SKYDAYS</h1>
       <button>Başvur</button>
     </header>
   );

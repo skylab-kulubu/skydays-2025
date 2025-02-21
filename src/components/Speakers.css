@@ -2,22 +2,15 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 60%;
-  gap: 50px;
-  scroll-margin-top: 150px;
-}
-.speakers > h2 {
-  font-family: Syne;
-  text-shadow: 0px 0px 16px #00a8cc;
-  font-size: 3rem;
-  font-weight: 600;
-  line-height: 120%;
+  width: 80%;
+  gap: 3rem;
+  scroll-margin-top: 9.375rem;
 }
 .speakers-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 50px;
+  gap: 3rem;
 }
 
 figure.speaker {
@@ -25,10 +18,10 @@ figure.speaker {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 5px;
+  gap: 1rem;
 }
 figure.speaker > img {
-  width: 200px;
+  height: 15rem;
   background-color: #142850;
   border-radius: 25px;
   transition: box-shadow 0.3s ease-in;
@@ -49,4 +42,17 @@ figure.speaker > figcaption > h3 {
 figure.speaker > figcaption > p {
   color: #00a8cc;
   font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 750px) {
+  .speakers-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .speakers-container {
+    justify-content: center;
+  }
 }
