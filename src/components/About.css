@@ -1,0 +1,23 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 60%;
+  gap: 50px;
+  scroll-margin-top: 150px;
+}
+.about > h2 {
+  font-family: Syne;
+  text-shadow: 0px 0px 16px #00a8cc;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 120%;
+}
+.about > p {
+  color: #a7cbd3;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  width: 80%;
+}
