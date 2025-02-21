@@ -1,0 +1,63 @@
+.ctf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  scroll-margin-top: 100px;
+}
+
+.ctf > div {
+  background-color: rgba(20, 40, 80, 0.2);
+  width: 100%;
+
+  text-align: center;
+  padding: 50px;
+}
+.ctf > div > h2 {
+  font-family: Syne;
+  font-size: 5rem;
+  font-weight: 700;
+}
+.ctf > div > h3 {
+  font-family: Syne;
+  font-size: 3rem;
+  color: #00a8cc;
+  font-weight: 600;
+}
+
+.ctf-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 60%;
+  gap: 50px;
+}
+.ctf-about > h2 {
+  text-shadow: 0px 0px 16px #00a8cc;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 120%;
+}
+.ctf-about > p {
+  color: #a7cbd3;
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+}
+.ctf-about > button {
+  border-radius: 100px;
+  background: #00a8cc;
+  box-shadow: 0px 0px 14px 0px #0c7b93;
+  border: none;
+  padding: 10px 24px;
+  transition: box-shadow 0.3s ease-in;
+}
+.ctf-about > button:hover {
+  box-shadow: 0px 0px 25px 0px #0c7b93;
+}
+.ctf > img {
+  width: 40%;
+}
