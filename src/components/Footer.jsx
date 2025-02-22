@@ -4,13 +4,26 @@ import InstagramLogo from "../assets/InstagramLogo.svg";
 import LinkedinLogo from "../assets/LinkedinLogo.svg";
 import XLogo from "../assets/XLogo.svg";
 import YoutubeLogo from "../assets/YoutubeLogo.svg";
+import SkysecLogo from "../assets/skyseclogo.jpg";
+import WeblabLogo from "../assets/weblablogo.png";
 
 function Footer() {
   return (
     <footer>
-      <img src={SkylabLogo} alt="Skylab Kulüp Logosu" />
+      <div className="footer-images">
+        <a href="https://yildizskylab.com/" target="_blank">
+          <img src={SkylabLogo} alt="Skylab Kulüp Logosu" />
+        </a>
+        <a href="https://skysec.yildizskylab.com/" target="_blank">
+          <img
+            className="skysec-logo"
+            src={SkysecLogo}
+            alt="SkySec Ekibi Logosu"
+          />
+        </a>
+      </div>
       <h3>
-        Soracak başka sorularınız için{" "}
+        Sorularınız için bize
         <a href="mailto:info@yildizskylab.com">info@yildizskylab.com</a> mail
         adresine ulaşabilirsiniz.
       </h3>
@@ -34,6 +47,17 @@ function Footer() {
           <img src={YoutubeLogo} alt="Youtube Logo" />
         </a>
       </div>
+      <h3 className="weblab-info">
+        <a href="https://yildizskylab.com/" target="_blank">
+          <img
+            className="weblab-logo"
+            src={WeblabLogo}
+            alt="WEBLAB Ekibi Logosu"
+          />
+        </a>
+        SKY LAB: Bilgisayar Bilimleri Kulübü SKYMEDYA ekibi tarafından
+        tasarlanmıştır, WEBLAB ekibi tarafından geliştirilmiştir.
+      </h3>
     </footer>
   );
 }
