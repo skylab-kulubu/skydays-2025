@@ -7,11 +7,19 @@ function Questions() {
       soru: "Etkinliğe nereden başvurabilirim?",
       cevap: (
         <>
-          <a href="https://skyl.app/skydays-katilimci-formu" target="_blank">
+          <a
+            href="https://skyl.app/skydays-katilimci-formu"
+            target="_blank"
+            style={{ textDecoration: "underline" }}
+          >
             Zirve formu
           </a>
           <br />
-          <a href="https://skyl.app/skydays-ctf-basvuru-formu" target="_blank">
+          <a
+            href="https://skyl.app/skydays-ctf-basvuru-formu"
+            target="_blank"
+            style={{ textDecoration: "underline" }}
+          >
             Yarışma formu
           </a>
         </>
