@@ -10,24 +10,18 @@ class Circle {
   }
 
   draw(ctx) {
-    ctx.fillStyle = "#00a8cc";
-    ctx.filter = "blur(50px)";
+    ctx.fillStyle = "#2b68ad";
+    /* ctx.filter = "blur(10px)"; */
     ctx.beginPath();
     ctx.arc(this.x, this.y, this.radius, 0, 2 * Math.PI);
     ctx.fill();
   }
 
   update(canvasWidth, canvasHeight) {
-    if (
-      this.x + this.radius >= canvasWidth - 100 ||
-      this.x - this.radius <= 0
-    ) {
+    if (this.x + this.radius >= canvasWidth || this.x - this.radius <= 0) {
       this.dx = -this.dx;
     }
-    if (
-      this.y + this.radius >= canvasHeight - 100 ||
-      this.y - this.radius <= 0
-    ) {
+    if (this.y + this.radius >= canvasHeight || this.y - this.radius <= 0) {
       this.dy = -this.dy;
     }
 
@@ -43,7 +37,7 @@ const Canvas = (props) => {
   useEffect(() => {
     const canvas = canvasRef.current;
     const context = canvas.getContext("2d");
-
+    canvas.style.webkitFilter = "blur(20px)";
     const circle1 = new Circle(100, 100, 50, -0.2);
     const circle2 = new Circle(600, 300, 50, 0.2);
     const circle3 = new Circle(600, 300, 50, -0.2);
@@ -63,7 +57,7 @@ const Canvas = (props) => {
     animate();
   }, []);
 
-  return <canvas ref={canvasRef} {...props} width={1000} height={500} />;
+  return <canvas ref={canvasRef} {...props} width={1000} height={400} />;
 };
 
 export default Canvas;
