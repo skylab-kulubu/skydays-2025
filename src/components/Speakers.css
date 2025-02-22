@@ -21,7 +21,9 @@ figure.speaker {
   gap: 1rem;
 }
 figure.speaker > img {
-  height: 15rem;
+  width: 15rem;
+  padding: 20px;
+  box-sizing: border-box;
   background-color: #142850;
   border-radius: 25px;
   transition: box-shadow 0.3s ease-in;

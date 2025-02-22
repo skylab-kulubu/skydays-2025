@@ -23,11 +23,11 @@ function Header() {
         <button onClick={() => scrollToElement("speakers")}>
           Konuşmacılar
         </button>
-        <button onClick={() => scrollToElement("ctf")}>CFT</button>
-        <button onClick={() => scrollToElement("sss")}>S.S.S.</button>
         <button onClick={() => scrollToElement("sponsors")}>
           Sponsorlarımız
         </button>
+        <button onClick={() => scrollToElement("ctf")}>CFT</button>
+        <button onClick={() => scrollToElement("sss")}>S.S.S.</button>
       </nav>
       <h1>SKYDAYS</h1>
       <a href="https://skyl.app/skydays-katilimci-formu">Başvur</a>

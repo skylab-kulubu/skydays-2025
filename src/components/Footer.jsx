@@ -11,7 +11,7 @@ function Footer() {
       <img src={SkylabLogo} alt="Skylab Kulüp Logosu" />
       <h3>
         Soracak başka sorularınız için{" "}
-        <a href="mailto:skylab.ytu@gmail.com">skylab.ytu@gmail.com</a> mail
+        <a href="mailto:info@yildizskylab.com">info@yildizskylab.com</a> mail
         adresine ulaşabilirsiniz.
       </h3>
       <div className="media-container">

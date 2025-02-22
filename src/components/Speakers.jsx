@@ -1,5 +1,5 @@
 import "./Speakers.css";
-import SpeakerImage from "../assets/konusmaci.png";
+import SkylabImage from "../assets/skylab_logo.webp";
 
 function Speakers() {
   return (
@@ -7,42 +7,42 @@ function Speakers() {
       <h2>Konuşmacılar</h2>
       <section className="speakers-container">
         <figure className="speaker">
-          <img src={SpeakerImage} alt="Konuşmacı" />
+          <img src={SkylabImage} alt="Konuşmacı" />
           <figcaption>
             <h3>Yakında Açıklanacak</h3>
             <p></p>
           </figcaption>
         </figure>
         <figure className="speaker">
-          <img src={SpeakerImage} alt="Konuşmacı" />
+          <img src={SkylabImage} alt="Konuşmacı" />
           <figcaption>
             <h3>Yakında Açıklanacak</h3>
             <p></p>
           </figcaption>
         </figure>
         <figure className="speaker">
-          <img src={SpeakerImage} alt="Konuşmacı" />
+          <img src={SkylabImage} alt="Konuşmacı" />
           <figcaption>
             <h3>Yakında Açıklanacak</h3>
             <p></p>
           </figcaption>
         </figure>
         <figure className="speaker">
-          <img src={SpeakerImage} alt="Konuşmacı" />
+          <img src={SkylabImage} alt="Konuşmacı" />
           <figcaption>
             <h3>Yakında Açıklanacak</h3>
             <p></p>
           </figcaption>
         </figure>
         <figure className="speaker">
-          <img src={SpeakerImage} alt="Konuşmacı" />
+          <img src={SkylabImage} alt="Konuşmacı" />
           <figcaption>
             <h3>Yakında Açıklanacak</h3>
             <p></p>
           </figcaption>
         </figure>
         <figure className="speaker">
-          <img src={SpeakerImage} alt="Konuşmacı" />
+          <img src={SkylabImage} alt="Konuşmacı" />
           <figcaption>
             <h3>Yakında Açıklanacak</h3>
             <p></p>

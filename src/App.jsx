@@ -16,9 +16,9 @@ function App() {
         <Welcome />
         <About />
         <Speakers />
+        <Sponsors />
         <Skydaysctf />
         <Questions />
-        <Sponsors />
       </main>
       <Footer />
     </>

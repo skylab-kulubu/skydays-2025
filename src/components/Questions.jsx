@@ -4,9 +4,24 @@ import "./Questions.css";
 function Questions() {
   const [data, setData] = useState([
     {
+      soru: "Etkinliğe nereden başvurabilirim?",
+      cevap: (
+        <>
+          <a href="https://skyl.app/skydays-katilimci-formu" target="_blank">
+            Zirve formu
+          </a>
+          <br />
+          <a href="https://skyl.app/skydays-ctf-basvuru-formu" target="_blank">
+            Yarışma formu
+          </a>
+        </>
+      ),
+      acik: false,
+    },
+    {
       soru: "Etkinlik nerede ve ne zaman gerçekleşecek?",
       cevap:
-        "SKYDAYS, 14-15 Mart tarihlerinde Yıldız Teknik Üniversitesi Davutpaşa Kampüsü Tarihi Hamam’da gerçekleşecektir. Zirve, 14 Mart günü 12.30’da başlayıp 19.00’da biterken yarışma ise 14 Mart günü 20.00’da başlayıp 15 Mart günü 20.00’da bitecektir.",
+        "SKYDAYS, 14-15 Mart tarihlerinde Yıldız Teknik Üniversitesi Davutpaşa Kampüsü Tarihi Hamam’da gerçekleşecektir. Zirve, 14 Mart günü 12.30’da başlayıp 19.00’da biterken yarışma ise 14 Mart günü 21.00’da başlayıp 15 Mart günü 17.00’da bitecektir.",
       acik: false,
     },
     {
