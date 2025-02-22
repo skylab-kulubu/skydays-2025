@@ -23,7 +23,7 @@ function Footer() {
         </a>
       </div>
       <h3>
-        Sorularınız için bize
+        Sorularınız için bize{" "}
         <a href="mailto:info@yildizskylab.com">info@yildizskylab.com</a> mail
         adresine ulaşabilirsiniz.
       </h3>
