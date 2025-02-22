@@ -16,7 +16,11 @@ const scrollToElement = (element) => {
 function Header() {
   return (
     <header>
-      <a href="https://yildizskylab.com/" target="_blank">
+      <a
+        className="header-logo"
+        href="https://yildizskylab.com/"
+        target="_blank"
+      >
         <img src={skylablogo} alt="Skylab Kulüp Logosu" />
       </a>
       <nav>
@@ -32,7 +36,9 @@ function Header() {
         <button onClick={() => scrollToElement("sss")}>S.S.S.</button>
       </nav>
       <h1>SKYDAYS</h1>
-      <a href="https://skyl.app/skydays-katilimci-formu">Başvur</a>
+      <a className="basvur" href="https://skyl.app/skydays-katilimci-formu">
+        Başvur
+      </a>
     </header>
   );
 }
