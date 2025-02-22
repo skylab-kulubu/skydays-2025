@@ -39,7 +39,7 @@ html {
 
 body {
   background: linear-gradient(180deg, #142850 10.39%, #0c7b93 134.5%);
-  min-height: 100vh;
+  height: 100vh;
   color: #fff;
   overflow-x: hidden;
   position: relative;
