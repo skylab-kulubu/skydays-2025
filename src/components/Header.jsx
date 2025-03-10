@@ -26,8 +26,8 @@ function Header() {
       <nav>
         <button onClick={() => scrollToElement("welcome")}>Ana Sayfa</button>
         <button onClick={() => scrollToElement("about")}>Hakkımızda</button>
-        <button onClick={() => scrollToElement("speakers")}>
-          Konuşmacılar
+        <button onClick={() => scrollToElement("flow")}>
+          Program ve Akış
         </button>
         <button onClick={() => scrollToElement("sponsors")}>
           Sponsorlarımız
